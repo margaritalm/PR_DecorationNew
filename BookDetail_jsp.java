@@ -13,7 +13,7 @@ public class BookDetail_jsp extends HttpJspBase {
 //
 
 
-
+//
 
   
   static final String CRLF = "\r\n";
