@@ -163,11 +163,11 @@ public class BookDetail_jsp extends HttpJspBase {
     }
   }
   //werkjwoeriwoeriw
-  String getParam(javax.servlet.http.HttpServletRequest req, String paramName) {
-    String param = req.getParameter(paramName);
-    if ( param == null || param.equals("") ) return "";
-    return param;
-  }
+ 
+ 
+    
+  
+
 
   boolean isNumber (String param) {
     boolean result;
