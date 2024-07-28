@@ -162,7 +162,7 @@ public class BookDetail_jsp extends HttpJspBase {
       return "";
     }
   }
-  
+  //werkjwoeriwoeriw
   String getParam(javax.servlet.http.HttpServletRequest req, String paramName) {
     String param = req.getParameter(paramName);
     if ( param == null || param.equals("") ) return "";
