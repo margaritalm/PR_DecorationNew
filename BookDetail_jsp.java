@@ -13,7 +13,7 @@ public class BookDetail_jsp extends HttpJspBase {
 //
 
 
-
+//
 
   
   static final String CRLF = "\r\n";
@@ -162,12 +162,12 @@ public class BookDetail_jsp extends HttpJspBase {
       return "";
     }
   }
+  //werkjwoeriwoeriw
+ 
+ 
+    
   
-  String getParam(javax.servlet.http.HttpServletRequest req, String paramName) {
-    String param = req.getParameter(paramName);
-    if ( param == null || param.equals("") ) return "";
-    return param;
-  }
+
 
   boolean isNumber (String param) {
     boolean result;
